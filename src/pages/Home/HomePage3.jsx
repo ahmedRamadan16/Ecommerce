@@ -10,7 +10,6 @@ import xBanner08 from "../../imgs/xbanner-08.jpg.pagespeed.ic.Lo-wLsaWt0.webp";
 import xBanner09 from "../../imgs/xbanner-09.jpg.pagespeed.ic.BOBoCfd_Jc.webp";
 import { Col, Row, Container } from "react-bootstrap";
 import Products from "../../components/ProductsSection/Products";
-import { HomePageContext } from "../../App";
 const cardData = [
   {
     img: xBanner01,

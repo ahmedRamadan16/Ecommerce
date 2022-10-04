@@ -151,7 +151,9 @@ function Products() {
                     <ProductCard img={img} title={title} price={price} />
                   </Col>
                 );
-              }
+              }else{
+                  return (<></>)
+                }
             })}
           </Row>
           <button className="btn load-more ms-auto me-auto d-block text-uppercase">

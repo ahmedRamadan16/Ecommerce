@@ -37,10 +37,13 @@
           display: block;
           margin: 1rem 0;
         }
-        a {
+        button {
+          all: unset;
           font-size: 20px;
           font-weight: bold;
           margin-bottom: 1rem;
+          cursor: pointer;
+
           display: block;
           transition: 0.3s ease-in;
           &:hover {
@@ -105,10 +108,12 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            a {
+            button {
+              all: unset;
               color: gray;
               transition: 0.3s ease-in;
               font-size: 18px;
+              cursor: pointer;
               &:hover {
                 color: $primaryColor;
               }

@@ -23,9 +23,9 @@ function Blog() {
                     <img src={blogImg1} alt="" />
                     <div className="info">
                       <span>By Nancy Ward on July 22, 2017</span>
-                      <a href="#">
+                      <button>
                         8 Inspiring Ways to Wear Dresses in the Winter
-                      </a>
+                      </button>
                       <p>
                         Duis ut velit gravida nibh bibendum commodo. Suspendisse
                         pellentesque mattis augue id euismod. Interdum et
@@ -37,9 +37,9 @@ function Blog() {
                     <img src={blogImg2} alt="" />
                     <div className="info">
                       <span>By Nancy Ward on July 18, 2017</span>
-                      <a href="#">
+                      <button>
                         The Great Big List of Men’s Gifts for the Holidays
-                      </a>
+                      </button>
                       <p>
                         Nullam scelerisque, lacus sed consequat laoreet, dui
                         enim iaculis leo, eu viverra ex nulla in tellus. Nullam
@@ -51,9 +51,9 @@ function Blog() {
                     <img src={blogImg3} alt="" />
                     <div className="info">
                       <span>By Nancy Ward on July 2, 2017</span>
-                      <a href="#">
+                      <button>
                         5 Winter-to-Spring Fashion Trends to Try Now
-                      </a>
+                      </button>
                       <p>
                         Proin nec vehicula lorem, a efficitur ex. Nam vehicula
                         nulla vel erat tincidunt, sed hendrerit ligula
@@ -85,21 +85,21 @@ function Blog() {
                   <div className="product">
                     <img src={img1} alt="" />
                     <div className="info">
-                      <a href="#">White Shirt With Pleat Detail Back</a>
+                      <button>White Shirt With Pleat Detail Back</button>
                       <span>$19.00</span>
                     </div>
                   </div>
                   <div className="product">
                     <img src={img2} alt="" />
                     <div className="info">
-                      <a href="#">Converse All Star Hi Black Canvas</a>
+                      <button>Converse All Star Hi Black Canvas</button>
                       <span>$39.00</span>
                     </div>
                   </div>
                   <div className="product">
                     <img src={img3} alt="" />
                     <div className="info">
-                      <a href="#">Nixon Porter Leather Watch In Tan</a>
+                      <button>Nixon Porter Leather Watch In Tan</button>
                       <span>$17.00</span>
                     </div>
                   </div>

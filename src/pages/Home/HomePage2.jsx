@@ -1,5 +1,4 @@
 import Slider from "../../components/Slider/Slider";
-import Footer from "../../components/Footer/Footer";
 import { Container, Row, Col } from "react-bootstrap";
 import xBanner01 from "../../imgs/xbanner-01.jpg.pagespeed.ic.Uj5FE94mgU.webp";
 import xBanner02 from "../../imgs/xbanner-02.jpg.pagespeed.ic.MQuZq6F18q.webp";
@@ -88,7 +87,9 @@ function HomePage2() {
                 <img src={blogImg1} alt="" />
                 <div className="info">
                   <span>By Nancy Ward on July 22, 2017</span>
-                  <a href="#">8 Inspiring Ways to Wear Dresses in the Winter</a>
+                  <button>
+                    8 Inspiring Ways to Wear Dresses in the Winter
+                  </button>
                   <p>
                     Duis ut velit gravida nibh bibendum commodo. Suspendisse
                     pellentesque mattis augue id euismod. Interdum et male-suada
@@ -102,9 +103,9 @@ function HomePage2() {
                 <img src={blogImg2} alt="" />
                 <div className="info">
                   <span>By Nancy Ward on July 18, 2017</span>
-                  <a href="#">
+                  <button>
                     The Great Big List of Men’s Gifts for the Holidays
-                  </a>
+                  </button>
                   <p>
                     Nullam scelerisque, lacus sed consequat laoreet, dui enim
                     iaculis leo, eu viverra ex nulla in tellus. Nullam nec
@@ -118,7 +119,7 @@ function HomePage2() {
                 <img src={blogImg3} alt="" />
                 <div className="info">
                   <span>By Nancy Ward on July 2, 2017</span>
-                  <a href="#">5 Winter-to-Spring Fashion Trends to Try Now</a>
+                  <button>5 Winter-to-Spring Fashion Trends to Try Now</button>
                   <p>
                     Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla
                     vel erat tincidunt, sed hendrerit ligula porttitor. Fusce
