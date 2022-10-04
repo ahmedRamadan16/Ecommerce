@@ -1,0 +1,42 @@
+.top-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  color: gray;
+  height: 50px;
+  overflow: hidden;
+  font-size: 15px;
+  transition: 0.3s ease-in;
+  &.hide {
+    height: 0;
+  }
+  &.show {
+    height: 50px;
+  }
+  .row {
+    align-items: center;
+    height: 50px;
+    > div {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      &:last-of-type {
+        justify-content: flex-end;
+      }
+      .right {
+        height: 100%;
+        ul {
+          display: flex;
+          height: 100%;
+          li {
+            padding: 1rem;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+          }
+        }
+      }
+    }
+  }
+}

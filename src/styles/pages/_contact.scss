@@ -1,0 +1,99 @@
+.contact-page {
+  .landing {
+    background-image: url("../../imgs/xbg-01.jpg.pagespeed.ic.2e1HWxQapm.webp");
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    h2 {
+      position: relative;
+      color: #fff;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+  .contact-us {
+    margin: 6rem 0;
+    .container {
+      border: 1px solid #ccc;
+      .left {
+        border-right: 1px solid #ccc;
+        @media (max-width: 991px) {
+          border-right: 0;
+          border-bottom: 1px solid #ccc;
+        }
+        height: 100%;
+        .email {
+          width: 80%;
+          position: relative;
+          margin: 2rem auto;
+          border: 1px solid #ccc;
+          padding: 1rem;
+          @media (max-width: 767px) {
+            width: 100%;
+          }
+          input {
+            width: 100%;
+            border: none;
+            padding-left: 30px;
+            outline: none;
+          }
+          svg {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem;
+            color: grey;
+          }
+        }
+        textarea {
+          width: 80%;
+          margin: 0 auto;
+          padding: 1rem;
+          border-color: #ccc;
+          outline: none;
+          @media (max-width: 767px) {
+            width: 100%;
+          }
+        }
+        button {
+          display: block;
+          width: 80%;
+          margin: 1rem auto;
+          padding: 1rem;
+          color: #fff;
+          background-color: #333;
+          border-radius: 30px;
+        }
+      }
+      .right {
+        .box {
+          width: 60%;
+          @media (max-width: 767px) {
+            width: 100%;
+          }
+          margin: 1rem auto;
+          display: flex;
+          gap: 2rem;
+          padding: 2rem 0;
+          color: grey;
+          svg {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

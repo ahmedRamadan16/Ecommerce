@@ -1,0 +1,50 @@
+.card {
+  padding: 2rem;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s ease-in;
+  position: relative;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 86, 179, 0.8);
+    opacity: 0;
+    transition: 0.3s ease-in;
+  }
+  .info {
+    position: relative;
+    h2 {
+      font-weight: bold;
+      font-size: 2.3rem;
+    }
+  }
+  .animate-span {
+    padding: 1rem 1rem 0;
+    border-bottom: 4px solid #fff;
+    width: fit-content;
+    overflow: hidden;
+    position: relative;
+    span {
+      display: block;
+      transform: translateY(20px);
+      transition: 0.3s ease-in;
+    }
+  }
+  &:hover::before {
+    opacity: 1;
+  }
+  &:hover .info,
+  .animate-span {
+    color: #fff;
+  }
+  &:hover .animate-span span {
+    transform: translateY(-5px) scale(1.1);
+  }
+}
